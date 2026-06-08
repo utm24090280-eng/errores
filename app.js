@@ -1,8 +1,8 @@
-import mongoose from "mongoose";//libreria para conexion de bases de datos
-import express from "express";//libreria para crear servidores
-import cors from "cors";//libreria para darle seguridad al servidor
-import dotenv from "dotenv";//libreria para modificar el documento.env
-import { test } from "./backend/controllers/alumnos.controller.js";
+import mongoose from "mongoose";
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import { test } from "./backend/controllers/comentario.controller.js";
 
 dotenv.config();
 mongoose.connect(process.env.url_bd)
