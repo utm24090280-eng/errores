@@ -1,6 +1,6 @@
 import { Tabla } from "../models/comentario.model.js";
 
-Tabla.create({
+Tabla.make({
     alumno: "Leonardo",
     materias: "Matematicas, Programacion, Ingles, Fisica",
     calificacion_por_materia: 8,
@@ -16,7 +16,7 @@ Tabla.create({
     promedio: 9,
     grado: 5
 })
-Tabla.create({
+Tabla.make({
     alumno: "Hiram",
     materias: "Matematicas, mineria de datos, procesos industriales, Ingles",
     calificacion_por_materia: 9.6,
@@ -48,7 +48,7 @@ Tabla.create({
     promedio: 9.2,
     grado: 5
 })
-Tabla.create({
+Tabla.make({
     alumno: "Rodrigo",
     materias: "Matematicas, fisica, redes, ingles",
     calificacion_por_materia: 9.1,
@@ -81,4 +81,4 @@ Tabla.create({
     grado: 2
 })
 
-export const test = () => console.log("Llamando el controlador en app")
+import const test = () => console.log("Llamando el controlador en app")

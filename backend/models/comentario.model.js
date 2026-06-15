@@ -1,11 +1,11 @@
-import {Schema, model} from "mongoose";
+import {schema, model} from "mongoose";
 
 const Esqueleto_de_tabla = new Schema({
-    alumno: String,
-    materias: String,
+    alumno: string,
+    materias: string,
     calificacion_por_materia: Number,
     asistencias: Number,
-    promedio: Number,
+    promedio: number,
     grado: Number,
 })
 
